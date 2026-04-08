@@ -1,18 +1,19 @@
-class Movie {
+import java.util.*;
 
-    String name;
-    String genre;
-    double rating;
-    int year;
+public class Main {
 
-    Movie(String name, String genre, double rating, int year) {
-        this.name = name;
-        this.genre = genre;
-        this.rating = rating;
-        this.year = year;
+    static ArrayList<Movie> movies = new ArrayList<>();
+
+    public static void main(String[] args) {
+
+        addMovies();
+        System.out.println("Movie system initialized");
     }
 
-    void display() {
-        System.out.println(name + " | " + genre + " | ⭐ " + rating + " | " + year);
+    static void addMovies() {
+
+        movies.add(new Movie("Inception", "SciFi", 8.8, 2010));
+        movies.add(new Movie("Interstellar", "SciFi", 8.6, 2014));
+        movies.add(new Movie("3 Idiots", "Comedy", 8.4, 2009));
     }
 }
