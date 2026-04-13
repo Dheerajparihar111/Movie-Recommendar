@@ -18,6 +18,8 @@ class MovieService {
         movies.add(new Movie("Avengers", "Action", 8.0, 2012));
         movies.add(new Movie("Lord of the Rings", "SciFi", 8.1, 2015));
         movies.add(new Movie("Notebook", "Romance", 8.8,2019 ));
+        movies.add(new Movie("5 Feet Apart","Romance", 8.2, 2016));
+        movies.add(new Movie("Dune","SciFi", 8.1, 2024));
     }
 
     public void showAllMovies() {
