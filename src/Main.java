@@ -49,7 +49,7 @@ public class Main {
                     break;
 
                 case 6:
-                    System.out.println("Exiting...");
+                    System.out.println("Thank You For using Movie Recommender");
                     break;
 
                 default:
