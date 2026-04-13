@@ -18,6 +18,6 @@ class Movie {
     public int getYear() { return year; }
 
     public void display() {
-        System.out.println(name + " | " + genre + " | ⭐ " + rating + " | " + year);
+        System.out.println(name + " : " + genre + " : ⭐ " + rating + " : " + year);
     }
 }
