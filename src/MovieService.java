@@ -47,7 +47,7 @@ class MovieService {
         boolean found = false;
 
         for (Movie m : movies) {
-            if (m.getGenre().equalsIgnoreCase(genre)) {
+            if (m.getGenre().toLowerCase().equalsIgnoreCase(genre)) {
                 m.display();
                 found = true;
             }

@@ -18,14 +18,14 @@ public class Main {
 
         do {
 
-            System.out.println(CYAN + "\n===== MOVIE RECOMMENDATION SYSTEM =====" + RESET);
-            System.out.println(YELLOW + "1 View All Movies");
-            System.out.println("2 Search Movie");
-            System.out.println("3 Filter by Genre");
-            System.out.println("4 Recommend Movies");
-            System.out.println("5 Top Rated Movies");
-            System.out.println("6 Exit" + RESET);
-
+            System.out.println(CYAN + "\n=== MOVIE RECOMMENDATION SYSTEM ===" + RESET);
+            System.out.println(YELLOW + "| 1 View All Movies               |");
+            System.out.println("| 2 Search Movie                  |");
+            System.out.println("| 3 Filter by Genre               | ");
+            System.out.println("| 4 Recommend Movies              |");
+            System.out.println("| 5 Top Rated Movies              |");
+            System.out.println("| 6 Exit                          |");
+            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"+RESET);
             System.out.print(BLUE + "Enter choice: " + RESET);
             choice = input.nextInt();
             input.nextLine();
