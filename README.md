@@ -89,16 +89,9 @@ Main.java          → User Interface (CLI)
 
 ## 🖥️ Sample Output
 
-```id="output02"
-===== MOVIE RECOMMENDATION SYSTEM =====
+<img width="1851" height="960" alt="Movie Recommender output2" src="https://github.com/user-attachments/assets/bc44679e-0240-441a-ac70-6069bdecea4e" />
+<img width="1851" height="902" alt="Movie Recommender output1" src="https://github.com/user-attachments/assets/7583360f-576d-40a8-95e2-5a0592426a6f" />
 
-Enter choice: 4
-Enter preferred genre: SciFi
-
-Recommended Movies:
-Inception | SciFi | ⭐ 8.8 | 2010
-Interstellar | SciFi | ⭐ 8.6 | 2014
-```
 
 ---
 
