@@ -1,0 +1,148 @@
+# 🎬 Movie Recommendation System 
+
+A professional **Command Line Movie Recommendation System** built using **Java (OOP principles)**.
+This project demonstrates structured programming, clean architecture, and user-friendly CLI interaction with a **colored interface**.
+
+---
+
+## 🚀 Overview
+
+This application allows users to:
+
+* Browse a collection of movies
+* Search and filter based on preferences
+* Get recommendations based on genre and rating
+* View top-rated movies
+
+It is designed as a **modular, scalable CLI application** following industry-style **OOP design patterns**.
+
+---
+
+## ✨ Features
+
+### 🎥 Movie Management
+
+* View all available movies
+* Search movies by name
+* Filter movies by genre
+
+### ⭐ Recommendation System
+
+* Suggest movies based on user’s preferred genre
+* Filters high-rated movies (rating ≥ 8)
+
+### 📊 Top Rated Section
+
+* Displays top 5 highest-rated movies
+* Sorted dynamically
+
+### 🎨 CLI UI Enhancements
+
+* Colored output for better readability
+* 🟢 Success / Results
+* 🔴 Errors
+* 🔵 Input prompts
+* 🟡 Menu options
+
+---
+
+## 🧱 Project Architecture (OOP)
+
+```id="structure01"
+Movie.java         → Data Model (Encapsulation)
+MovieService.java  → Business Logic
+Main.java          → User Interface (CLI)
+```
+
+### 🔹 Design Principles Used
+
+* Encapsulation (private fields + getters)
+* Separation of concerns
+* Modular code structure
+
+---
+
+## 🛠️ Technologies Used
+
+* ☕ Java (Core)
+* 📚 ArrayList (dynamic storage)
+* 🔁 Collections.sort (sorting logic)
+* 🎨 ANSI Escape Codes (CLI colors)
+* 💻 Command Line Interface
+
+---
+
+## ⚙️ Menu Options
+
+```id="menu02"
+===== MOVIE RECOMMENDATION SYSTEM =====
+
+1 View All Movies
+2 Search Movie
+3 Filter by Genre
+4 Recommend Movies
+5 Top Rated Movies
+6 Exit
+```
+
+---
+
+## 🖥️ Sample Output
+
+<img width="1851" height="960" alt="Movie Recommender output2" src="https://github.com/user-attachments/assets/bc44679e-0240-441a-ac70-6069bdecea4e" />
+<img width="1851" height="902" alt="Movie Recommender output1" src="https://github.com/user-attachments/assets/7583360f-576d-40a8-95e2-5a0592426a6f" />
+
+
+---
+
+## ▶️ How to Run
+### 1.link : https://github.com/Dheerajparihar111/Movie-Recommendar
+### 2. Compile
+
+```id="run03"
+javac Main.java Movie.java MovieService.java
+```
+
+### 3. Run
+
+```id="run04"
+java Main
+```
+
+---
+
+## 📌 How It Works
+
+* Movies are stored in an `ArrayList`
+* User input drives filtering and recommendation
+* Sorting is done using comparator logic
+* CLI UI is enhanced using ANSI color codes
+
+---
+
+## 🎯 Learning Outcomes
+
+* Object-Oriented Programming (OOP)
+* CLI-based application development
+* Data filtering & searching algorithms
+* Clean code structuring
+* User interaction handling
+
+---
+
+## 🔥 Future Enhancements
+
+* 📁 File-based storage (persistent data)
+* ❤️ Favorites / Watchlist system
+* ⭐ Smart recommendation (scoring algorithm)
+* 🔍 Multi-genre filtering
+* 🎨 Boxed UI design
+* 🌐 API integration for real-time data
+
+---
+
+## 👨‍💻 Author
+
+**Dheeraj Parihar**
+Electronics & Telecommunication Engineering Student
+Aspiring Entrepreneur & Developer
