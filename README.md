@@ -103,14 +103,14 @@ Interstellar | SciFi | ⭐ 8.6 | 2014
 ---
 
 ## ▶️ How to Run
-
-### 1. Compile
+### 1.link : https://github.com/Dheerajparihar111/Movie-Recommendar
+### 2. Compile
 
 ```id="run03"
 javac Main.java Movie.java MovieService.java
 ```
 
-### 2. Run
+### 3. Run
 
 ```id="run04"
 java Main
